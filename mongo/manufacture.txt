@@ -1,0 +1,86 @@
+db..insertMany([
+{
+  ajor Electronics",
+  location: "New York",
+  phone: "123-456-7890",
+  email: "info@majorelectronics.com",
+},
+
+{
+
+manufacturerName: "Corpo Industries",
+  location: "Los Angeles",
+  phone: "456-789-0123",
+  email: "contact@corpo.com",
+
+},
+
+{
+manufacturerName: "Chicago Industries",
+  location: "Chicago",
+  phone: "789-012-3456",
+  email: "support@chicagoindus.com",
+
+},
+
+{
+manufacturerName: "Laminar Technologies",
+  location: "Toronto",
+  phone: "234-567-8901",
+  email: "support@Laminar.com",
+
+},
+
+{
+manufacturerName: "DEF Enterprises",
+  location: "Vancouver",
+  phone: "567-890-1234",
+  email: "info@defent.com",
+
+},
+
+{
+
+manufacturerName: "GHI Corporation",
+  location: "Calgary",
+  phone: "890-123-4567",
+  email: "contact@ghicorp.com",
+
+},
+
+{
+
+manufacturerName: "JKL Solutions",
+  location: "Michigan",
+  phone: "345-678-9012",
+  email: "info@jklsolutions.com",
+
+},
+
+{
+manufacturerName: "Jess Electronics",
+  location: "San Francisco",
+  phone: "678-901-2345",
+  email: "sales@Jesselec.com",
+
+},
+
+{
+manufacturerName: "MNO Systems",
+  location: "Toronto",
+  phone: "901-234-5678",
+  email: "support@mnosystems.com",
+
+},
+
+{
+
+manufacturerName: "Hudsonelectronics",
+  location: "Miami",
+  phone: "012-345-6789",
+  email: "sales@hdelectronics",
+
+},
+
+
+])

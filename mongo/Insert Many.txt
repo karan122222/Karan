@@ -1,0 +1,45 @@
+db.test_results.insertMany([
+{
+
+product_id:"1015",
+test_id:"2015",
+tester_name:"John",
+test_date:"2024-03-01",
+test_result:"N\A",
+
+},
+
+{
+
+product_id:"1016",
+test_id:"2016",
+tester_name:"Robert Miller",
+test_date:"2024-03-07",
+test_result:"N\A",
+
+
+},
+
+{
+
+product_id:"1017",
+test_id:"2017",
+tester_name:"David Wilson",
+test_date:"2024-03-02",
+test_result:"N\A",
+
+
+},
+
+{
+
+product_id:"1018",
+test_id:"2018",
+tester_name:"Ashley Anderson",
+test_date:"2024-03-03",
+test_result:"N\A",
+
+
+},
+
+])

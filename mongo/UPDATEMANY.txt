@@ -1,0 +1,16 @@
+
+db.test_results.updateMany(
+   { "product_id": "10113", "test_id": "2013" }, 
+   { $set: { "test_result": "Pass", "remarks": "Product meets all quality tests without issues." } },
+
+ { "product_id": "1014", "test_id": "2014" }, 
+   { $set: { "test_results": "Fail", "remarks": "Manufacturing issues were detected" } },
+
+ { "product_id": "102", "test_id": "202" }, 
+   { $set: { "test_result": "Failed", "remarks": "Damaged Goods Detected" } },
+
+ { "product_id": "103", "test_id": "203" }, 
+   { $set: { "test_result": "Pass", "remarks": "Product passed all quality tests without issues." } } 
+
+
+)

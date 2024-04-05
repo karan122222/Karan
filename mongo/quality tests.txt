@@ -1,0 +1,83 @@
+db.quality_control_tests.insertMany([
+{
+test_name:"Durability Test",
+description:"Test the product's durability under stress",
+equipment_used:"Durability Testing Machine",
+test_procedure:"Apply increasing pressure until failure occurs",
+
+},
+
+{
+test_name:"Accuracy Test",
+description:"Test the accuracy of measurement",
+equipment_used:"Precision Scale",
+test_procedure:"Measure the deviation from the standard value",
+
+},
+
+{
+test_name:"Temperature Test",
+description:"Test the product's performance under heat",
+equipment_used:"Temperature Chamber",
+test_procedure:"Expose the product to high temperatures and monitor response",
+
+},
+
+{
+test_name:"Drop Test",
+description:"Test product resilience to impact",
+equipment_used:"Drop Testing Apparatus",
+test_procedure:"Drop the product from various heights onto different surfaces",
+
+},
+
+{
+test_name:"Moisture Test",
+description:"Test the product's resistance to moisture",
+equipment_used:"Moisture Meter",
+test_procedure:"Expose the product to humidity and measure moisture content",
+
+},
+
+{
+test_name:"Tensile Strength Test",
+description:"Test product's resistance to pulling force",
+equipment_used:"Tensile Testing Machine",
+test_procedure:"Apply force gradually until product breaks",
+
+},
+
+{
+test_name:"Chemical Analysis",
+description:"Test product's chemical composition",
+equipment_used:"Spectrophotometer",
+test_procedure:"Analyze the chemical composition using spectroscopy",
+
+},
+
+{
+test_name:"Corrosion Test",
+description:"Test the product's resistance to corrosion",
+equipment_used:"Corrosion Testing Chamber",
+test_procedure:"Expose the product to corrosive substances and monitor",
+
+},
+
+{
+test_name:"Vibration Test	",
+description:"Test product's resistance to vibration",
+equipment_used:"Vibration Testing Equipment",
+test_procedure:"Subject the product to vibrations and assess performance",
+
+},
+
+{
+test_name:"Leakage Test",
+description:"Test product's sealing effectiveness",
+equipment_used:"Leakage Testing Machine",
+test_procedure:"Apply pressure to the product and check for leaks",
+
+},
+
+])
+

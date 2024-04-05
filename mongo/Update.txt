@@ -1,0 +1,6 @@
+db.test_results.update(
+   { "test_id": { $in: ["2013", "2014" , "202" , "203"] } }, 
+   
+   { $set: { "test_result": "Pass" } },
+   { multi: true } 
+)

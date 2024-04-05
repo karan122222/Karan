@@ -1,0 +1,1 @@
+mongoimport --uri="mongodb+srv://karancluster:karan1212@karancluster.nrt30uv.mongodb.net/" --db Quality_Control --collection=employees --file="C:\Users\Owner\Documents\qualitycontrol\employees.csv" --type csv --headerline
